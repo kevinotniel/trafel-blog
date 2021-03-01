@@ -73,6 +73,7 @@ h3 {
 .box p {
    font-size: 90%;
    line-height: 145%;
+   margin-bottom: 30px;
 }
 
 .icon-big {
@@ -84,7 +85,7 @@ h3 {
 .long-copy {
    width: 70%;
    margin: 0 auto;
-   margin-bottom: 20px;
+   margin-bottom: 30px;
    line-height: 145%;
    font-size: 90%;
    font-weight: 300;
@@ -159,4 +160,35 @@ h3 {
 .main-nav li a:active {
    border-bottom: 2px solid #F39C12;
    font-weight: 300;
+}
+
+.trip-showcase  {
+   width: 100%;
+   list-style: none;
+}
+
+.trip-showcase li {
+   display: block;
+   float: left;
+   width: 25%;
+}
+
+.trip-img {
+   width: 100%;
+   margin: 0;  
+   overflow: hidden;
+   background-color: #000;
+}
+
+.trip-img img {
+   width: 100%;
+   height: auto;
+   transform: scale(1.15);
+   opacity: 0.7;
+   transition: transfom 0.5s, opacity 0.5s;
+}
+
+.trip-img img:hover {
+   opacity: 1;
+   transform: scale(1.05);
 }
