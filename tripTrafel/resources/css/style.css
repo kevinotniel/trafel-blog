@@ -247,3 +247,30 @@ h3 {
    width: auto;
    height: 50px;
 }
+
+.box img {
+   width: 100%;
+   height: auto; 
+} 
+
+.icon-small {
+   color: #F1C40F; 
+   display: inline-block;
+   margin-right: 5px;
+   margin-bottom: -2px;
+}
+
+a:link,
+a:visited {
+   color: #F39C12;
+   text-decoration: none;
+   border-bottom: 1px solid #F1C40F;
+   padding-bottom: 2px;
+   transition: border-bottom 0.2s, font-weight 0.2s;
+}
+
+a:hover,
+a:active{
+   border-bottom: 1px solid transparent;
+   font-weight: 500;
+}
