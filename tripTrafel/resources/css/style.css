@@ -23,6 +23,7 @@ header {
    height: 100vh;
    background-position: center;
    background-size: cover;
+   background-attachment: fixed;
 }
 
 .text-img-box {
@@ -231,8 +232,7 @@ h3 {
 
 .work-step div {
    border: 2px solid #F1C40F;
-   border-radius: 50%;
-   display: inline-block;
+   border-radius: 50%; 
    width: 55px;
    height: 55px; 
    text-align: center;
@@ -252,6 +252,10 @@ h3 {
    width: 100%;
    height: auto; 
 } 
+
+.country {
+   margin-bottom: 40px;
+}
 
 .icon-small {
    color: #F1C40F; 
@@ -273,4 +277,42 @@ a:hover,
 a:active{
    border-bottom: 1px solid transparent;
    font-weight: 500;
+}
+
+.section-testimonial {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.795)), url(img/girl.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   color: #fff;
+}
+
+blockquote {
+   font-style: italic;
+   line-height: 145%;
+   position: relative;
+   padding: 2%; 
+   margin: 20px 0;
+}
+
+blockquote::before {
+   content: "\201C";
+   position: absolute;
+   font-size: 500%;
+   top: -5px;
+   display: block;
+   left: -8px;
+}
+
+cite {
+   font-size: 90%;
+   display: block;
+   margin-top: 10px;
+}
+
+cite img {
+   height: 50px;
+   border-radius: 50%;
+   width: 50px;
+   vertical-align: middle;
+   margin-right: 10px;
 }
