@@ -185,10 +185,65 @@ h3 {
    height: auto;
    transform: scale(1.15);
    opacity: 0.7;
-   transition: transfom 0.5s, opacity 0.5s;
+   transition: transform 0.5s, opacity 0.5s;
 }
 
 .trip-img img:hover {
    opacity: 1;
-   transform: scale(1.05);
+   transform: scale(1.04);
+}
+
+.clear-fix {zoom: 1}
+.clear-fix::after {
+   content: ".";
+   clear: both;
+   display: block;
+   height: 0;
+   visibility: hidden;
+}
+
+
+.section-step {
+   background-color: rgb(228, 225, 225);
+}
+
+.step-box:first-child { 
+   text-align: right;
+   padding: 3%;  
+}
+
+.step-box:last-child { 
+   padding: 3%; 
+   margin-top: 50px;
+}
+
+.phone-screen{
+   width: 50%; 
+}
+
+.work-step {
+   margin-bottom: 50px;
+}
+
+.work-step:last-of-type {
+   margin-bottom: 90px;
+}
+
+.work-step div {
+   border: 2px solid #F1C40F;
+   border-radius: 50%;
+   display: inline-block;
+   width: 55px;
+   height: 55px; 
+   text-align: center;
+   float: left;
+   margin-right: 25px;
+   padding: 7px;
+   font-size: 150%;
+}
+
+.btn-app {
+   margin-right: 20px;
+   width: auto;
+   height: 50px;
 }
