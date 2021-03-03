@@ -93,7 +93,8 @@ h3 {
 }
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
    display: inline-block;
    padding: 10px 30px;
    border-radius: 200px;
@@ -103,7 +104,8 @@ h3 {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
    background-color: #F1C40F;
    border: 1px solid #F1C40F;
    color: white;
@@ -117,7 +119,8 @@ h3 {
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit]:hover {
    background-color: #F39C12;
 }
 
@@ -367,4 +370,29 @@ cite img {
 .plan-box div:last-child {
    text-align: center;
    border: 0;
+}
+ 
+.contact-form {
+   width: 60%;
+   margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea,
+select {
+   width: 100%;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   margin: 5px 10px 5px 0;
+   padding: 5px;
+}
+ 
+input[type=submit] {
+  height: 40px; 
+  margin-top: -5px;
+} 
+
+textarea{
+   height: 100px;
 }
