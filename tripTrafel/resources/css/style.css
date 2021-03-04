@@ -4,13 +4,15 @@
    box-sizing: border-box;
 }
 
-html {
+html,
+body {
    font-family: "Montserrat", "Arial", sans-serif;
    font-size: 20px;
    font-weight: 300;
    background-color: #fff;
    color: #000;
    text-rendering: optimizeLegibility;
+   overflow-x: hidden;
 }
 
 .row {
@@ -72,7 +74,7 @@ h3 {
 }
 
 .box p {
-   font-size: 90%;
+   font-size: 70%;
    line-height: 145%;
    margin-bottom: 30px;
 }
@@ -80,7 +82,7 @@ h3 {
 .icon-big {
    color: #F1C40F;
    font-size: 250%;
-   padding: 0 100px ;
+   margin-left:  100px ;
 }
 
 .long-copy {
@@ -149,7 +151,7 @@ input[type=submit]:hover {
 }
 
 .main-nav li a:link,
-.main-nav li a:active {
+.main-nav li a:visited {
    text-decoration: none;
    color: #fff;
    border-bottom: 2px solid transparent;
@@ -248,7 +250,8 @@ input[type=submit]:hover {
 .btn-app {
    margin-right: 20px;
    width: auto;
-   height: 50px;
+   height: 50px; 
+   border: 0px;
 }
 
 .box img {
@@ -267,8 +270,8 @@ input[type=submit]:hover {
    margin-bottom: -2px;
 }
 
-a:link,
-a:visited {
+.sosmed:link,
+.sosmed:visited {
    color: #F39C12;
    text-decoration: none;
    border-bottom: 1px solid #F1C40F;
@@ -276,8 +279,8 @@ a:visited {
    transition: border-bottom 0.2s, font-weight 0.2s;
 }
 
-a:hover,
-a:active{
+.sosmed:hover,
+.sosmed:active{
    border-bottom: 1px solid transparent;
    font-weight: 500;
 }
@@ -322,6 +325,7 @@ cite img {
 
 .section-sign-up {
    background-color:rgb(228, 225, 225) ;
+   padding-bottom: 20px;
 }
 
 .plan-box {
