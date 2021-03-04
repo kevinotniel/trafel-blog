@@ -151,7 +151,7 @@ input[type=submit]:hover {
 }
 
 .main-nav li a:link,
-.main-nav li a:visited {
+.main-nav li a:active {
    text-decoration: none;
    color: #fff;
    border-bottom: 2px solid transparent;
