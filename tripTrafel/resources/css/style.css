@@ -169,6 +169,22 @@ input[type=submit]:hover {
    font-weight: 300;
 }
 
+
+/* MOBILE NAV */
+
+
+.mobile-nav-icon {
+   float: right;
+   margin-top: 30px;
+   cursor: pointer;
+   display: none;
+}
+
+.mobile-nav-icon .i {
+   font-size: 200%;
+   color: #fff;
+}
+
 /* STICKY NAV */
 
 .sticky{

@@ -82,4 +82,19 @@ $(document).ready(function() {
       offset: '50%'
    })
 
+
+   $('.js--nav-icon').click(function(){
+      var nav = $('.js--main-nav')
+      var icon = $('.js--nav-icon i')
+
+      nav.slideToggle(200) 
+
+      if (icon.hasClass('reorder-four-outline')) {
+         icon.removeClass('reorder-four-outline')
+      } else {
+         icon.addClass('reorder-four-outline')
+      }
+
+   })
+
 }) 
