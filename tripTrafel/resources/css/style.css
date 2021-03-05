@@ -151,7 +151,7 @@ input[type=submit]:hover {
 }
 
 .main-nav li a:link,
-.main-nav li a:active {
+.main-nav li a:visited {
    text-decoration: none;
    color: #fff;
    border-bottom: 2px solid transparent;
@@ -167,6 +167,37 @@ input[type=submit]:hover {
    border-bottom: 2px solid #F39C12;
    font-weight: 300;
 }
+
+/* STICKY NAV */
+
+.sticky{
+   background-color: #fff;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+
+   z-index: 9999;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited { 
+   color: #555; 
+   padding: 15px 0;   
+}
+
+.sticky .logo { display: none;}
+.logo-black{ display: none;}
+.sticky .logo-black { display: block;}
+
+.logo-black {
+   height: 50px;
+   width: auto;
+   float: left; 
+   margin: 5px 0;
+}
+
+.sticky .main-nav {  margin-top: 20px; }
 
 .trip-showcase  {
    width: 100%;

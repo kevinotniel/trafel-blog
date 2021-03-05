@@ -13,9 +13,10 @@
    </head>
    <body>
       <header>
-         <nav>
+         <nav class="sticky">
             <div class="row">
                <img src="resources/img/logo-white.png" alt="gyrofel logo" class="logo">
+               <img src="resources/img/logo.png" alt="gyrofel logo" class="logo-black">
                <ul class="main-nav">
                   <li><a href="#">Detail Ticket</a></li>
                   <li><a href="#">How it works</a></li>
@@ -32,7 +33,7 @@
          </div> 
       </header>
 
-      <section>
+      <section class="js--feature-section">
          <div class="row">
             <h2>Just download &mdash; no need print.</h2>
             <p class="long-copy">Hello Travelers. We're gyrofe, your new premium ticket service. We know you're always busy, we love trees . So let us make it easy, we're really good at it, we promise</p>
@@ -410,14 +411,18 @@
          </div>
       </footer>  
 
-      <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script> 
-   </body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="vendor/js/jquery.waypoints.min.js"></script>
 
+      <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script> 
       <!-- will help on older browser -->
       <!-- respond.js -->
       <!-- enables HTML5 elements on older browser -->
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
       <!-- allows us to use CSS3 pseudo class (like first child and last child)-->
       <script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
+      <script src="resources/js/script.js"></script>
+   </body>
+
 </html> 
  
