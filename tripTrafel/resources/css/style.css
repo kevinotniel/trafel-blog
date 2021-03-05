@@ -172,12 +172,12 @@ input[type=submit]:hover {
 /* STICKY NAV */
 
 .sticky{
-   background-color: #fff;
+   background-color: rgba(255, 255, 255, 0.98);
    position: fixed;
    top: 0;
    left: 0;
    width: 100%;
-
+   box-shadow: 0 2px 2px rgb(214, 214, 214);
    z-index: 9999;
 }
 
@@ -187,11 +187,11 @@ input[type=submit]:hover {
    padding: 15px 0;   
 }
 
-.sticky .logo { display: none;}
-.logo-black{ display: none;}
 .sticky .logo-black { display: block;}
+.sticky .logo { display: none;} 
 
 .logo-black {
+   display: none;
    height: 50px;
    width: auto;
    float: left; 
@@ -509,3 +509,15 @@ footer p {
    padding-bottom: -60px;
 }
 
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+   opacity: 0;
+}
+
+.js--wp-1 .animated,
+.js--wp-3 .animated
+{
+   opacity: 1;
+}
