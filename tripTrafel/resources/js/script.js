@@ -89,10 +89,12 @@ $(document).ready(function() {
 
       nav.slideToggle(200) 
 
-      if (icon.hasClass('reorder-four-outline')) {
-         icon.removeClass('reorder-four-outline')
+      if (icon.hasClass('im-angle-down-circle')) {
+         icon.addClass('im-angle-up-circle')
+         icon.removeClass('im-angle-down-circle')
       } else {
-         icon.addClass('reorder-four-outline')
+         icon.addClass('im-angle-down-circle')
+         icon.removeClass('im-angle-up-circle')
       }
 
    })

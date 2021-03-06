@@ -180,7 +180,7 @@ input[type=submit]:hover {
    display: none;
 }
 
-.mobile-nav-icon .i {
+.mobile-nav-icon i {
    font-size: 200%;
    color: #fff;
 }
