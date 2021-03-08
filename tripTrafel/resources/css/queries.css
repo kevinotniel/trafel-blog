@@ -87,6 +87,18 @@
    .sticky .mobile-nav-icon i { color: #555;}
    .sticky .mobile-nav-icon { margin-top: 10px;} 
  
+   .map-box {
+      width: 100%;
+      height: 100px;
+      position: relative; 
+    }
+  
+    .map {
+      width: 100%;
+      height: 300px;
+      position: relative;
+      z-index: 0;
+    } 
 
    h1 {  font-size: 180%; }  
    h2 {   font-size: 120%;  }

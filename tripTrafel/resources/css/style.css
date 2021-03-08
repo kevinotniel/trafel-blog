@@ -17,6 +17,33 @@
    margin-left: 40px;
 }
 
+.map-box {
+	width: 100%;
+	height: 600px;
+	position: relative;  
+   margin-bottom: 60px;
+} 
+
+.map {
+	width: 100%;
+	height: 530px;
+	position: relative;
+	z-index: 0; 
+}
+.form-messages {
+   width:50%;
+   margin: 0 auto;
+   padding: 10px;
+   border-radius: 3px;
+   margin-bottom: 20px;
+   color: #333;
+   height: 200px;
+}
+
+.success { background-color: rgba(39, 201, 120, 0.863);}
+
+.error { background-color: hsla(0, 62%, 47%, 0.882);}
+
 .main-nav li a:link,
 .main-nav li a:visited {
    text-decoration: none;

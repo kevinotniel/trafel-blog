@@ -99,4 +99,23 @@ $(document).ready(function() {
 
    })
 
+     /* MAP */
+	// Map starting location:
+	var map = new GMaps( {
+		div: '.map',
+		lat: -6.200000,
+		lng: 106.816666,
+		zoom: 12
+	});
+
+	// Map marker:
+	map.addMarker( {
+		lat: -6.131059336067474, 
+		lng: 106.91995283680698,
+		title: 'North Jakarta',
+		infoWindow: {
+			content: '<p>Our North Jakarta</p>'
+		}
+	});
+
 }) 
